@@ -1,1 +1,6 @@
----> <?php echo date('r', time());
+<?php
+header('Content-Type', 'application/json');
+
+echo json_encode([
+    'date' => date('r'),
+]);
