@@ -7,4 +7,9 @@ class Logger
     {
         // ?
     }
+
+    public function err($message = '')
+    {
+        // ?
+    }
 }
