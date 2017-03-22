@@ -12,6 +12,11 @@ class App
         $this->logger = new Logger();
     }
 
+    public function register() {
+        // ...
+        return 'test';
+    }
+
 
     public function run() {
         $this->logger->log('starting');
