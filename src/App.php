@@ -6,10 +6,10 @@ class App
     protected $controller;
     protected $logger;
 
-    public function __construct()
+    public function __construct(Controller $controller, Logger $logger)
     {
-        $this->controller = new Controller();
-        $this->logger = new Logger();
+        $this->controller = $controller;
+        $this->logger = $logger;
     }
 
 
