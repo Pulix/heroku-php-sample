@@ -1,24 +1,4 @@
 
 [![Build Status](https://travis-ci.org/Pulix/heroku-php-sample.svg?branch=master)](https://travis-ci.org/Pulix/heroku-php-sample)
 [![Coverage Status](https://coveralls.io/repos/github/Pulix/heroku-php-sample/badge.svg?branch=feature.preparing.coveralls)](https://coveralls.io/github/Pulix/heroku-php-sample?branch=feature.preparing.coveralls)
-
-## Unit tests
-
-- [x] PHPUnit installed / available as a composer requirement
-- [x] PHPUnit.xml file - using vendor/autoload.php as a bootstrap + point to all *Test.php files in the tests path
-- [ ] Sample test for App (we'll use Mockery)
-
-## Coveralls
-
-
-## CodeClimate (or Scrutinizer)
-
-
-## GitHub protect master branch using CI
-
-
-## Slack Notification
-
-
-
-
+[![Code Climate](https://codeclimate.com/github/Pulix/heroku-php-sample/badges/gpa.svg)](https://codeclimate.com/github/Pulix/heroku-php-sample)
