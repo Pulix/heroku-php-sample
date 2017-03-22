@@ -1,7 +1,9 @@
 {
   "require-dev": {
     "heroku/heroku-buildpack-php": "*",
-    "phpunit/phpunit": "*"
+    "phpunit/phpunit": "*",
+    "mockery/mockery": "^0.9.9",
+    "satooshi/php-coveralls": "^1.0"
   },
   "autoload": {
     "psr-4": {

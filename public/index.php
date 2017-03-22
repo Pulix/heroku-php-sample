@@ -2,5 +2,8 @@
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-$app = new Project\App();
+$logger = new \Project\Logger();
+$controller = new \Project\Controller();
+
+$app = new Project\App($controller, $logger);
 $app->run();
