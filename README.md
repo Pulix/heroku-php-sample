@@ -1,4 +1,8 @@
 
+[![Build Status](https://travis-ci.org/Pulix/heroku-php-sample.svg?branch=master)](https://travis-ci.org/Pulix/heroku-php-sample)
+
+
+
 ## Unit tests
 
 - [ ] PHPUnit installed / available as a composer requirement
