@@ -11,6 +11,11 @@ class App
         $this->controller = $controller;
         $this->logger = $logger;
     }
+//
+//    public function register() {
+//        // ...
+//        return 'test';
+//    }
 
 
     public function run() {
