@@ -1,7 +1,6 @@
 <?php
 namespace MyUnitTests\App;
 
-use Mockery\Mock;
 use Mockery\MockInterface;
 use PHPUnit\Framework\TestCase;
 use Project\App;
